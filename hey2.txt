@@ -1,0 +1,17 @@
+git init - to create a empty git repository 
+git add - move to stageing area from working directory, for tracking new files
+git commit - from staging area to repository
+git status
+git rm - remove file from working directory also, and to move the removed file to staging area
+git rm --staged hey.txt  - remove but let it remain in working directory
+git diif - differnce between working directory and staged
+git diff --staged - differnce between  staged and repository
+git mv - to rename a file and move it to staging area
+git log - view commit history
+git log -p - to show differnces
+git log -2 - to limit to 2 latest entries
+git reset - from staging area to working directory
+git amend - to make it a part of previous commit
+git checkout - from repository to working directory
+git remote add origin repositoryUrl - to move to remote
+git push origin master - origin - repository  master - branch
