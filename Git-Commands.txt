@@ -16,3 +16,5 @@ git checkout - from repository to working directory
 git remote add origin repositoryUrl - to move to remote
 git push origin master - origin - repository  master - branch
 git clone - to get a project
+git fetch vs pull : pull = fetch + merge
+                    fetch gets the code form remote repository to local repository but not to working directory.
